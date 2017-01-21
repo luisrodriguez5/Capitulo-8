@@ -10,6 +10,11 @@ namespace Ejercicio_1
     {
         static void Main(string[] args)
         {
+            String Cadena;
+            Console.WriteLine("Ingrese una Cadena: ");
+            Cadena = Console.ReadLine();
+            Console.WriteLine("La cadena Introducida es: " + Cadena);
+            Console.ReadKey();
         }
     }
 }
